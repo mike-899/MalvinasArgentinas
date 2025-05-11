@@ -8,11 +8,11 @@ import AguaDulce from './pages/aguaDulce.jsx'
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<MainPage />} />
-      <Route path="/pesca" element={<Pesca />} />
-      <Route path="/mineria" element={<Mineria />} />
-      <Route path="/petroleo" element={<Petroleo />} />
-      <Route path="/aguaDulce" element={<AguaDulce />} />
+      <Route path="/MalvinasArgentinas" element={<MainPage />} />
+      <Route path="/MalvinasArgentinas/pesca" element={<Pesca />} />
+      <Route path="/MalvinasArgentinas/mineria" element={<Mineria />} />
+      <Route path="/MalvinasArgentinas/petroleo" element={<Petroleo />} />
+      <Route path="/MalvinasArgentinas/aguaDulce" element={<AguaDulce />} />
     </Routes>
   )
 }
