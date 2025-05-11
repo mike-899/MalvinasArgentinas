@@ -332,7 +332,7 @@ function MainPage() {
           </Box>
           
           <Model 
-            modelPath="/MalvinasArgentinas/src/assets/models/Ocean.glb"
+            modelPath="./MalvinasArgentinas/src/assets/models/Ocean.glb"
             position={[0, 0, -.21]}   
             rotation={[90 * (Math.PI/180), 0, 0]}
             castShadow
@@ -340,7 +340,7 @@ function MainPage() {
           />
 
           <Model 
-            modelPath="/MalvinasArgentinas/src/assets/models/Malvinas.glb"
+            modelPath="./MalvinasArgentinas/src/assets/models/Malvinas.glb"
             position={[cords.x, cords.y, cords.z+0.1]}    
             rotation={[90 * (Math.PI/180), 0, 0]}
             castShadow
@@ -364,7 +364,7 @@ function MainPage() {
             <meshStandardMaterial color="#50afd1" />
           </Sphere>
           <Model 
-            modelPath="/MalvinasArgentinas/src/assets/models/Pesca.glb"
+            modelPath="./MalvinasArgentinas/src/assets/models/Pesca.glb"
             position={isMobile 
               ? [mobileAdjust.positions.pesca[0], mobileAdjust.positions.pesca[1], mobileAdjust.positions.pesca[2]+0.3]
               : [cords.x-2, cords.y+2, cords.z+0.3]
@@ -391,7 +391,7 @@ function MainPage() {
             <meshStandardMaterial color="#000000" />
           </Sphere>
           <Model 
-            modelPath="/MalvinasArgentinas/src/assets/models/Mineria.glb"
+            modelPath="./MalvinasArgentinas/src/assets/models/Mineria.glb"
             position={isMobile 
               ? [mobileAdjust.positions.mineria[0], mobileAdjust.positions.mineria[1], mobileAdjust.positions.mineria[2]+0.5]
               : [cords.x+2, cords.y+2, cords.z+0.5]
@@ -418,7 +418,7 @@ function MainPage() {
             <meshStandardMaterial color="yellow" />
           </Sphere>
           <Model 
-            modelPath="/MalvinasArgentinas/src/assets/models/Petroleo.glb"
+            modelPath="./MalvinasArgentinas/src/assets/models/Petroleo.glb"
             position={isMobile 
               ? [mobileAdjust.positions.petroleo[0], mobileAdjust.positions.petroleo[1], mobileAdjust.positions.petroleo[2]+0.5]
               : [cords.x-2, cords.y-2, cords.z+0.5]
@@ -445,7 +445,7 @@ function MainPage() {
             <meshStandardMaterial color="purple" />
           </Sphere>
           <Model 
-            modelPath="/MalvinasArgentinas/src/assets/models/AguaDulce.glb"
+            modelPath="./MalvinasArgentinas/src/assets/models/AguaDulce.glb"
             position={isMobile 
               ? [mobileAdjust.positions.aguaDulce[0], mobileAdjust.positions.aguaDulce[1], mobileAdjust.positions.aguaDulce[2]+0.6]
               : [cords.x+2, cords.y-2, cords.z+0.6]
