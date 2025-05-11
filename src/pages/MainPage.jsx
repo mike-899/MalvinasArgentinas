@@ -332,7 +332,7 @@ function MainPage() {
           </Box>
           
           <Model 
-            modelPath="/MalvinasArgentinas/src/assets/models/Ocean.glb"
+            modelPath="./MalvinasArgentinas/src/assets/models/Ocean.glb"
             position={[0, 0, -.21]}   
             rotation={[90 * (Math.PI/180), 0, 0]}
             castShadow
